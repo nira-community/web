@@ -320,6 +320,19 @@ body {
         --edge: 20px;
     }
 
+    .header-nav {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: column;
+        grid-template-rows: repeat(3, auto);
+        gap: 5px 10px;
+        width: 100%;
+    }
+
+    .header-link {
+        width: fit-content;
+    }
+
     .page {
         padding: 40px var(--edge) 48px;
     }
