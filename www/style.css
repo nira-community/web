@@ -288,16 +288,21 @@ body {
 /* github banner */
 .banner-link {
     display: block;
-    width: 80%;
     margin-top: 16px;
-    line-height: 0;
-    transition: transform 0.2s ease;
+    border: 1px solid var(--line);
+    border-radius: 0;
+    line-height: 0;                 /* removes the gap under the image */
+    transition: border-color 0.15s ease;
 }
 
 .banner-link img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.banner-link:hover {
+    border-color: #ffffff;
 }
 
 /* responsive */
