@@ -285,6 +285,21 @@ body {
     background: var(--bg);
 }
 
+/* github banner */
+.banner-link {
+    display: block;
+    width: 80%;
+    margin-top: 16px;
+    line-height: 0;
+    transition: transform 0.2s ease;
+}
+
+.banner-link img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /* responsive */
 @media (max-width: 640px) {
     :root {
