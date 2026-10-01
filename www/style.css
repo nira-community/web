@@ -109,6 +109,14 @@ body {
     line-height: 1.15;
 }
 
+/* bold keyword highlight */
+.bold {
+    color: #0f1214;
+    background-color: #ffffff;
+    padding: 2px;
+    border-radius: 0;
+}
+
 /* media */
 .page-media {
     margin: 0 0 40px;
@@ -291,7 +299,8 @@ body {
     margin-top: 16px;
     border: 1px solid var(--line);
     border-radius: 0;
-    line-height: 0;                 /* removes the gap under the image */
+    line-height: 0;
+    /* removes the gap under the image */
     transition: border-color 0.15s ease;
 }
 
